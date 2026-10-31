@@ -1,0 +1,31 @@
+id,texto,fila_esperada
+1,"O sistema de pedidos dá erro 500 quando clico em salvar",APLICACOES
+2,"O Outlook fecha sozinho toda vez que abro um anexo",APLICACOES
+3,"O Excel trava ao abrir planilhas grandes desde a atualização de ontem",APLICACOES
+4,"Relatório de vendas no sistema está mostrando valores zerados",APLICACOES
+5,"Teams não compartilha a tela nas reuniões",APLICACOES
+6,"A impressora do 3º andar está atolando papel",CAMPO
+7,"Meu notebook não liga mais, a luz pisca e apaga",CAMPO
+8,"O mouse e o teclado sem fio pararam de funcionar",CAMPO
+9,"Preciso de um segundo monitor para minha mesa",CAMPO
+10,"O leitor de código de barras do caixa 2 não lê nada",CAMPO
+11,"Esqueci minha senha e minha conta foi bloqueada",ACESSOS
+12,"Preciso de acesso à pasta compartilhada do financeiro",ACESSOS
+13,"Troquei de celular e não recebo mais o código do MFA",ACESSOS
+14,"A VPN diz usuário ou senha inválidos, mas a senha está certa",ACESSOS
+15,"Funcionário novo começa segunda e precisa de login no sistema",ACESSOS
+16,"A internet da loja 245 caiu desde as 8h",REDE
+17,"O Wi-Fi da sala de reunião desconecta a cada 5 minutos",REDE
+18,"Todos do setor estão sem acesso à rede, nem o sistema abre",REDE
+19,"A internet está muito lenta, os vídeos não carregam",REDE
+20,"A VPN conecta mas cai depois de alguns minutos",REDE
+21,"Quero saber quando cai o pagamento das férias",FORA_DO_ESCOPO
+22,"O ar-condicionado da sala está pingando",FORA_DO_ESCOPO
+23,"Preciso de reembolso de uma despesa de viagem",FORA_DO_ESCOPO
+24,"Meu crachá não abre a catraca do prédio",FORA_DO_ESCOPO
+25,"Qual o prazo para entregar atestado médico?",FORA_DO_ESCOPO
+26,"Não está funcionando",PERGUNTAR
+27,"Meu sistema não abre, preciso urgente",PERGUNTAR
+28,"Deu erro aqui",PERGUNTAR
+29,"Está tudo muito lento hoje",PERGUNTAR
+30,"Preciso de ajuda com o computador",PERGUNTAR
