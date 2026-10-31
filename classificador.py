@@ -46,7 +46,10 @@ Chamado: {texto}"""
 
 client = genai.Client(
     api_key=os.getenv("GEMINI_API_KEY"),
-    http_options=types.HttpOptions(timeout=30_000),
+    http_options=types.HttpOptions(
+        timeout=30_000,
+        retry_options=types.HttpRetryOptions(attempts=1),
+    ),
 )
 
 

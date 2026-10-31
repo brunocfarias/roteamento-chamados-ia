@@ -1,0 +1,13 @@
+id,texto,fila_esperada
+1,"bom dia, to sem conseguir entra no sistema desde cedo, fala que meu usuario ta bloqueado",ACESSOS
+2,"a net do 4 andar ta caindo toda hr e o teams fica travando nas call",REDE
+3,"comprei um teclado novo pra trabalhar, como faço pra pedir o reembolso?",FORA_DO_ESCOPO
+4,"o pc ta fazendo um barulho estranho e esquentando muito, ja reiniciei",CAMPO
+5,"Não consigo abrir o SAP, aparece a mensagem licença expirada",APLICACOES
+6,"URGENTE!!! nada funciona",PERGUNTAR
+7,"Preciso que liberem o acesso do estagiário novo ao Drive do marketing",ACESSOS
+8,"A impressora fiscal do caixa 3 parou de imprimir o cupom",CAMPO
+9,"Meu holerite veio com um desconto que eu não reconheço",FORA_DO_ESCOPO
+10,"Depois que mudei de mesa o cabo de rede não funciona, mas o wifi pega normal",REDE
+11,"o sistema ta lento",PERGUNTAR
+12,"O Outlook pede minha senha toda hora mesmo eu digitando certo",ACESSOS

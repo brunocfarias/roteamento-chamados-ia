@@ -1,0 +1,13 @@
+id,texto,fila_esperada,fila_prevista,acertou,justificativa
+1,"bom dia, to sem conseguir entra no sistema desde cedo, fala que meu usuario ta bloqueado",ACESSOS,ACESSOS,True,O usuário relata que não consegue entrar no sistema porque sua conta está bloqueada.
+2,a net do 4 andar ta caindo toda hr e o teams fica travando nas call,REDE,PERGUNTAR,False,"O chamado relata problemas tanto na rede de internet quanto no aplicativo Teams, o que abrange filas diferentes."
+3,"comprei um teclado novo pra trabalhar, como faço pra pedir o reembolso?",FORA_DO_ESCOPO,FORA_DO_ESCOPO,True,"O pedido de reembolso de uma compra pessoal trata de um assunto financeiro e administrativo, que nao pertence ao escopo da TI."
+4,"o pc ta fazendo um barulho estranho e esquentando muito, ja reiniciei",CAMPO,CAMPO,True,"O computador esta fazendo barulho estranho e esquentando, caracterizando um problema fisico de hardware."
+5,"Não consigo abrir o SAP, aparece a mensagem licença expirada",APLICACOES,APLICACOES,True,O chamado relata uma falha ao abrir o sistema SAP devido a uma licença expirada.
+6,URGENTE!!! nada funciona,PERGUNTAR,PERGUNTAR,True,O chamado não fornece detalhes suficientes sobre qual serviço ou equipamento parou de funcionar.
+7,Preciso que liberem o acesso do estagiário novo ao Drive do marketing,ACESSOS,ACESSOS,True,O chamado solicita a liberação de permissão para um arquivo no Drive.
+8,A impressora fiscal do caixa 3 parou de imprimir o cupom,CAMPO,CAMPO,True,"O chamado relata um problema físico com a impressora fiscal do caixa 3, que é um equipamento de hardware."
+9,Meu holerite veio com um desconto que eu não reconheço,FORA_DO_ESCOPO,FORA_DO_ESCOPO,True,"O assunto tratado é sobre o holerite e desconto financeiro, que pertence ao setor de RH ou financeiro e não à TI."
+10,"Depois que mudei de mesa o cabo de rede não funciona, mas o wifi pega normal",REDE,CAMPO,False,"O problema envolve a conexão cabeada após a mudança de mesa, o que indica uma questão física relacionada à infraestrutura de rede local ou cabo no posto de trabalho."
+11,o sistema ta lento,PERGUNTAR,APLICACOES,False,"O chamado relata lentidão no sistema, o que se enquadra em erros e falhas em softwares."
+12,O Outlook pede minha senha toda hora mesmo eu digitando certo,ACESSOS,APLICACOES,False,"O chamado relata uma falha no funcionamento do Outlook, que é um software de e-mail."
