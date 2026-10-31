@@ -1,0 +1,13 @@
+id,texto,fila_esperada,fila_prevista,acertou,justificativa
+1,"bom dia, to sem conseguir entra no sistema desde cedo, fala que meu usuario ta bloqueado",ACESSOS,ACESSOS,True,O chamado relata que o usuario esta bloqueado ao tentar entrar no sistema.
+2,a net do 4 andar ta caindo toda hr e o teams fica travando nas call,REDE,REDE,True,"A internet do quarto andar está caindo constantemente, o que causa os travamentos no Teams."
+3,"comprei um teclado novo pra trabalhar, como faço pra pedir o reembolso?",FORA_DO_ESCOPO,FORA_DO_ESCOPO,True,"O chamado trata de reembolso por compra de material, o que é um assunto administrativo e não de TI."
+4,"o pc ta fazendo um barulho estranho e esquentando muito, ja reiniciei",CAMPO,CAMPO,True,O computador apresenta defeito físico com ruído estranho e superaquecimento.
+5,"Não consigo abrir o SAP, aparece a mensagem licença expirada",APLICACOES,APLICACOES,True,O chamado relata uma falha diretamente no sistema SAP acompanhada de mensagem de licença expirada.
+6,URGENTE!!! nada funciona,PERGUNTAR,PERGUNTAR,True,"O chamado relata que nada funciona sem especificar qual equipamento, sistema ou serviço está com problema."
+7,Preciso que liberem o acesso do estagiário novo ao Drive do marketing,ACESSOS,ACESSOS,True,O chamado solicita permissão de acesso ao Drive para um novo funcionário.
+8,A impressora fiscal do caixa 3 parou de imprimir o cupom,CAMPO,CAMPO,True,"O chamado relata um defeito físico em um equipamento, especificamente a impressora fiscal do caixa 3."
+9,Meu holerite veio com um desconto que eu não reconheço,FORA_DO_ESCOPO,FORA_DO_ESCOPO,True,"O assunto tratado é sobre holerite e descontos salariateis, que são de competencia do setor de Recursos Humanos e não da TI."
+10,"Depois que mudei de mesa o cabo de rede não funciona, mas o wifi pega normal",REDE,REDE,True,O problema relatado é a falha no cabo de rede após a mudança de mesa.
+11,o sistema ta lento,PERGUNTAR,PERGUNTAR,True,"O chamado relata lentidão, mas não especifica qual sistema ou se o problema é geral de rede."
+12,O Outlook pede minha senha toda hora mesmo eu digitando certo,ACESSOS,ACESSOS,True,"A solicitação relata pedidos repetidos de senha, o que caracteriza uma falha de autenticação relacionada à fila de ACESSOS."

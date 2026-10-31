@@ -29,18 +29,22 @@ class Classificacao(BaseModel):
 PROMPT = """Você é o analista de triagem de um time de suporte de TI.
 Classifique o chamado abaixo em UMA das filas:
 
-- APLICACOES: erros e falhas em sistemas, softwares, e-mail, Office e Teams.
-- CAMPO: problemas físicos de hardware: computador, impressora, periféricos, equipamentos.
-- ACESSOS: senhas, contas bloqueadas, permissões, MFA, criação de usuários, erro de autenticação.
-- REDE: internet, Wi-Fi, rede local e quedas de conexão.
-- FORA_DO_ESCOPO: assuntos que não são da TI, como RH, financeiro e manutenção predial.
-- PERGUNTAR: o chamado não tem informação suficiente para escolher uma fila com segurança.
+- APLICACOES: o próprio sistema ou software está com defeito: erros, travamentos, mensagens de falha, licenças.
+- CAMPO: defeito físico em um equipamento: computador, impressora, periféricos, leitor, monitor.
+- ACESSOS: senha, conta bloqueada, permissões, MFA, criação de usuário, pedidos repetidos de senha ou falha de autenticação em qualquer sistema.
+- REDE: internet, Wi-Fi, cabo ou ponto de rede, VPN que cai, quedas e lentidão de conexão.
+- FORA_DO_ESCOPO: assuntos que não são da TI, como RH, pagamento, reembolso e manutenção predial.
+- PERGUNTAR: falta informação para escolher uma fila com segurança.
 
-Regras:
-- Use apenas o que está escrito no chamado. Não presuma o que não foi dito.
-- Se escolher PERGUNTAR, escreva em "pergunta" uma pergunta curta e objetiva ao usuário.
-  Nas outras filas, deixe "pergunta" vazia.
-- Em "justificativa", explique a escolha em uma frase.
+Como decidir:
+1. Classifique pela CAUSA provável, não pelo programa citado. Se um aplicativo falha porque a conexão cai, a fila é REDE. Se ele pede senha sem parar, é ACESSOS.
+2. Use PERGUNTAR quando o chamado não diz qual sistema, equipamento ou serviço está com problema, ou quando o sintoma pode ter causas de filas diferentes. Urgência não é motivo para pular a pergunta.
+3. Se os sintomas apontam claramente para uma fila, escolha a fila. Não pergunte o que já está respondido no chamado.
+4. Use apenas o que está escrito. Não presuma o que não foi dito.
+
+Formato:
+- Se escolher PERGUNTAR, escreva em "pergunta" uma pergunta curta e objetiva ao usuário. Nas outras filas, deixe "pergunta" vazia.
+- Em "justificativa", explique a escolha em uma frase, citando a causa identificada.
 
 Chamado: {texto}"""
 
