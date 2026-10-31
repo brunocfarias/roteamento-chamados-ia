@@ -1,0 +1,31 @@
+id,texto,fila_esperada,fila_prevista,acertou,justificativa
+1,O sistema de pedidos dá erro 500 quando clico em salvar,APLICACOES,APLICACOES,True,O chamado relata um erro interno do servidor (erro 500) ao utilizar o sistema de pedidos.
+2,O Outlook fecha sozinho toda vez que abro um anexo,APLICACOES,APLICACOES,True,O chamado relata uma falha no funcionamento do software Outlook ao tentar abrir um anexo.
+3,O Excel trava ao abrir planilhas grandes desde a atualização de ontem,APLICACOES,APLICACOES,True,O chamado relata uma falha no funcionamento do software Excel após uma atualização.
+4,Relatório de vendas no sistema está mostrando valores zerados,APLICACOES,APLICACOES,True,O problema relatado refere-se a uma falha em um sistema interno ao exibir valores zerados no relatório.
+5,Teams não compartilha a tela nas reuniões,APLICACOES,APLICACOES,True,O chamado relata uma falha no funcionamento do software Teams.
+6,A impressora do 3º andar está atolando papel,CAMPO,CAMPO,True,"O problema relatado é físico e envolve um equipamento de hardware, especificamente a impressora atolando papel."
+7,"Meu notebook não liga mais, a luz pisca e apaga",CAMPO,CAMPO,True,"O problema relatado envolve um hardware que não liga, caracterizando falha física."
+8,O mouse e o teclado sem fio pararam de funcionar,CAMPO,CAMPO,True,"O chamado relata problemas com periféricos de hardware, especificamente o mouse e o teclado."
+9,Preciso de um segundo monitor para minha mesa,CAMPO,CAMPO,True,A solicitação de um segundo monitor envolve um equipamento físico de hardware.
+10,O leitor de código de barras do caixa 2 não lê nada,CAMPO,CAMPO,True,"O problema refere-se a um periférico físico de hardware, que é o leitor de código de barras."
+11,Esqueci minha senha e minha conta foi bloqueada,ACESSOS,ACESSOS,True,"O usuário relatou que esqueceu a senha e que sua conta foi bloqueada, o que se enquadra diretamente na fila de acessos."
+12,Preciso de acesso à pasta compartilhada do financeiro,ACESSOS,ACESSOS,True,O usuário solicita permissão de acesso a uma pasta compartilhada.
+13,Troquei de celular e não recebo mais o código do MFA,ACESSOS,ACESSOS,True,"O chamado relata um problema com o recebimento do código MFA após a troca de celular, que está relacionado à autenticação e acessos."
+14,"A VPN diz usuário ou senha inválidos, mas a senha está certa",ACESSOS,ACESSOS,True,O chamado relata uma falha de autenticação com mensagem de usuário ou senha inválidos ao tentar acessar a VPN.
+15,Funcionário novo começa segunda e precisa de login no sistema,ACESSOS,ACESSOS,True,"O chamado solicita a criação de login para um funcionário, o que se enquadra em gestão de contas e acessos."
+16,A internet da loja 245 caiu desde as 8h,REDE,REDE,True,"O chamado relata a queda da internet da loja, o que corresponde a problemas de conexão e rede."
+17,O Wi-Fi da sala de reunião desconecta a cada 5 minutos,REDE,REDE,True,O chamado relata problemas com a conexão Wi-Fi na sala de reunião.
+18,"Todos do setor estão sem acesso à rede, nem o sistema abre",REDE,REDE,True,"O chamado relata que todos do setor estão sem acesso à rede, indicando um problema de conectividade geral."
+19,"A internet está muito lenta, os vídeos não carregam",REDE,REDE,True,"O chamado relata problemas com a velocidade da internet e carregamento de vídeos, que são questões diretamente relacionadas à rede."
+20,A VPN conecta mas cai depois de alguns minutos,REDE,REDE,True,"O chamado relata problemas com a conexao VPN que cai apos alguns minutos, o que esta relacionado a rede e conectividade."
+21,Quero saber quando cai o pagamento das férias,FORA_DO_ESCOPO,FORA_DO_ESCOPO,True,"O assunto sobre o pagamento de férias é de responsabilidade do setor financeiro ou RH, não da TI."
+22,O ar-condicionado da sala está pingando,FORA_DO_ESCOPO,FORA_DO_ESCOPO,True,"O chamado relata um problema de ar-condicionado, que é de manutenção predial e não de TI."
+23,Preciso de reembolso de uma despesa de viagem,FORA_DO_ESCOPO,ERRO,False,"503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}"
+24,Meu crachá não abre a catraca do prédio,FORA_DO_ESCOPO,FORA_DO_ESCOPO,True,O problema com o crachá e a catraca do prédio pertence à manutenção predial e não à TI.
+25,Qual o prazo para entregar atestado médico?,FORA_DO_ESCOPO,FORA_DO_ESCOPO,True,"O assunto trata de prazos para entrega de atestado médico, o que é de competência do RH e não da TI."
+26,Não está funcionando,PERGUNTAR,PERGUNTAR,True,"O chamado contém apenas a frase não está funcionando, o que não fornece informações suficientes para identificar o problema."
+27,"Meu sistema não abre, preciso urgente",PERGUNTAR,APLICACOES,False,"O chamado relata que o sistema não abre, o que se enquadra em erros e falhas de softwares."
+28,Deu erro aqui,PERGUNTAR,PERGUNTAR,True,"O chamado possui apenas a informacao generica de que deu erro, sendo necessario entender qual sistema ou situacao ocorreu."
+29,Está tudo muito lento hoje,PERGUNTAR,PERGUNTAR,True,"O chamado menciona lentidão genérica sem especificar se afeta o computador, a rede ou um sistema específico."
+30,Preciso de ajuda com o computador,PERGUNTAR,PERGUNTAR,True,"O chamado menciona apenas que precisa de ajuda com o computador, mas não especifica se é um problema de hardware, sistema ou acesso."
