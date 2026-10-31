@@ -1,0 +1,16 @@
+id,texto,fila_esperada,fila_prevista,acertou,justificativa
+1,a tela do meu notebook trincou depois que fechei com uma caneta dentro,CAMPO,CAMPO,True,O chamado relata um defeito físico no monitor do notebook causado por um impacto.
+2,"toda vez que tento gerar o pdf no sistema ERP, a tela fica toda branca",APLICACOES,APLICACOES,True,"A tela fica branca ao tentar gerar o PDF no sistema ERP, indicando uma falha interna na aplicação."
+3,esqueci a senha do email de novo e acabou bloqueando tudo aqui,ACESSOS,ACESSOS,True,"O chamado relata esquecimento de senha e bloqueio de conta, caracterizando um problema de autenticação."
+4,o cabo de rede diz que tá desconectado mas tá plugado certinho,REDE,REDE,True,O problema relatado refere-se à falha na conexão física de rede através do cabo.
+5,como faço para cadastrar meu dependente novo no plano de saúde?,FORA_DO_ESCOPO,FORA_DO_ESCOPO,True,O cadastro de dependente no plano de saúde é um assunto de Recursos Humanos (RH) e não de TI.
+6,alguem do TI pode me ligar rapidao? urgente,PERGUNTAR,PERGUNTAR,True,"O chamado relata urgência mas não especifica o sistema, equipamento ou serviço que está com problema."
+7,preciso que tirem os acessos do João que foi desligado hoje de manhã,ACESSOS,ACESSOS,True,"O chamado solicita a remoção de acessos de um funcionário desligado, o que se enquadra na gestão de contas e permissões."
+8,o nobreak tá apitando sem parar desde a queda de energia de ontem,CAMPO,CAMPO,True,"O chamado relata um defeito físico no nobreak, que está apitando após uma queda de energia."
+9,"não to conseguindo acessar nenhum site externo, só abre a intranet da empresa",REDE,REDE,True,"O usuário relata falha de acesso a sites externos enquanto a intranet funciona, indicando um problema de conexão com a rede ou internet."
+10,da uma olhada na minha maquina pfv,PERGUNTAR,PERGUNTAR,True,"O chamado relata um problema na maquina, mas nao especifica qual e o sintoma ou defeito."
+11,a luz do banheiro do segundo andar queimou,FORA_DO_ESCOPO,FORA_DO_ESCOPO,True,"O chamado relata um problema de manutenção predial (luz queimada), que não faz parte dos serviços de TI."
+12,fui tentar conectar na VPN hoje e falou que meu token do celular expirou,ACESSOS,ACESSOS,True,"O problema relatado é de token expirado no celular, o que está relacionado à autenticação e falha no acesso à VPN."
+13,o word tá pedindo pra ativar a chave do produto e não deixa eu digitar nada,APLICACOES,APLICACOES,True,"O Microsoft Word está com falha de ativação da licença, o que caracteriza um problema de software."
+14,"a bateria do meu notebook estufou, o teclado tá até alto e deformado",CAMPO,CAMPO,True,"A bateria do notebook estufou e deformou o teclado, caracterizando um defeito físico em um equipamento."
+15,tá dando um erro esquisito aqui na tela,PERGUNTAR,PERGUNTAR,True,"O chamado relata um erro na tela, mas nao especifica qual sistema ou aplicacao esta com problema."
